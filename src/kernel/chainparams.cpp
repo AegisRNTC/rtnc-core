@@ -154,13 +154,13 @@ public:
         vSeeds.emplace_back("seed.rtnc.invalid."); // Jason Maurice
         vSeeds.emplace_back("seed.rtnc.invalid.."); // Ava Chow, only supports x1, x5, x9, x49, x809, x849, xd, x400, x404, x408, x448, xc08, xc48, x40c
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,0);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,188);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0xB2, 0x47, 0x46};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0xB2, 0x43, 0x0C};
 
-        bech32_hrp = "bc";
+        bech32_hrp = "rtnc";
 
         vFixedSeeds.clear();
 
@@ -263,13 +263,13 @@ public:
         vSeeds.emplace_back("seed.test.rtnc.invalid."); // Just a static list of stable node(s), only supports x9
         vSeeds.emplace_back("seed.test.rtnc.invalid."); // Ava Chow, only supports x1, x5, x9, x49, x809, x849, xd, x400, x404, x408, x448, xc08, xc48, x40c
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,188);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0xB2, 0x47, 0x46};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0xB2, 0x43, 0x0C};
 
-        bech32_hrp = "tb";
+        bech32_hrp = "rtnct";
 
         vFixedSeeds.clear();
 
@@ -364,13 +364,13 @@ public:
         vSeeds.emplace_back("seed.testnet4.rtnc.invalid."); // Sjors Provoost
         vSeeds.emplace_back("seed.testnet4.rtnc.invalid."); // Jason Maurice
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,188);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0xB2, 0x47, 0x46};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0xB2, 0x43, 0x0C};
 
-        bech32_hrp = "tb";
+        bech32_hrp = "rtnct4";
 
         vFixedSeeds.clear();
 
@@ -495,13 +495,13 @@ public:
             }
         };
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,188);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0xB2, 0x47, 0x46};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0xB2, 0x43, 0x0C};
 
-        bech32_hrp = "tb";
+        bech32_hrp = "rtncs";
 
         fDefaultConsistencyChecks = false;
         m_is_mockable_chain = false;
@@ -628,13 +628,13 @@ public:
             .dTxRate = 0.001, // Set a non-zero rate to make it testable
         };
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
-        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,188);
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0xB2, 0x47, 0x46};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0xB2, 0x43, 0x0C};
 
-        bech32_hrp = "bcrt";
+        bech32_hrp = "rtncr";
     }
 };
 
