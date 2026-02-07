@@ -369,6 +369,9 @@ if(BUILD_CLI)
     libevent::core
     libevent::extra
   )
+
+set_target_properties(bitcoin-cli PROPERTIES OUTPUT_NAME "rtnc-cli")
+
   install_binary_component(bitcoin-cli HAS_MANPAGE)
 endif()
 
