@@ -130,7 +130,7 @@ public:
         pchMessageStart[1] = 0x54;
         pchMessageStart[2] = 0x4e;
         pchMessageStart[3] = 0x43;
-        nDefaultPort = 8333;
+        nDefaultPort = 29444;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 810;
         m_assumed_chain_state_size = 14;
@@ -244,7 +244,7 @@ public:
         pchMessageStart[1] = 0x54;
         pchMessageStart[2] = 0x4e;
         pchMessageStart[3] = 0x54;
-        nDefaultPort = 18333;
+        nDefaultPort = 39444;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 240;
         m_assumed_chain_state_size = 19;
@@ -340,7 +340,7 @@ public:
         pchMessageStart[1] = 0x54;
         pchMessageStart[2] = 0x53;
         pchMessageStart[3] = 0x47;
-        nDefaultPort = 48333;
+        nDefaultPort = 49444;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 2;
@@ -478,7 +478,7 @@ public:
         uint256 hash = h.GetHash();
         std::copy_n(hash.begin(), 4, pchMessageStart.begin());
 
-        nDefaultPort = 38333;
+        nDefaultPort = 39333;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1598918400, 52613770, 0x1e0377ae, 1, 50 * COIN);
