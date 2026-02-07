@@ -553,10 +553,10 @@ public:
         consensus.defaultAssumeValid = uint256{};
 
         pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xbf;
-        pchMessageStart[2] = 0xb5;
-        pchMessageStart[3] = 0xda;
-        nDefaultPort = 18444;
+        pchMessageStart[1] = 0xbc;
+        pchMessageStart[2] = 0xa1;
+        pchMessageStart[3] = 0x52;
+        nDefaultPort = 29444;
         nPruneAfterHeight = opts.fastprune ? 100 : 1000;
         m_assumed_blockchain_size = 0;
         m_assumed_chain_state_size = 0;
