@@ -302,6 +302,9 @@ if(BUILD_DAEMON)
     bitcoind.cpp
     init/bitcoind.cpp
   )
+
+set_target_properties(bitcoind PROPERTIES OUTPUT_NAME "rtncd")
+
   add_windows_resources(bitcoind bitcoind-res.rc)
   add_windows_application_manifest(bitcoind)
   target_link_libraries(bitcoind
