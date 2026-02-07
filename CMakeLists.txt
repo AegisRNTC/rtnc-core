@@ -26,7 +26,7 @@ get_directory_property(precious_variables CACHE_VARIABLES)
 #=============================
 # Project / Package metadata
 #=============================
-set(CLIENT_NAME "Bitcoin Core")
+set(CLIENT_NAME "RTNC Core")
 set(CLIENT_VERSION_MAJOR 30)
 set(CLIENT_VERSION_MINOR 2)
 set(CLIENT_VERSION_BUILD 0)
@@ -50,9 +50,9 @@ set(CMAKE_TRY_COMPILE_PLATFORM_VARIABLES
   CMAKE_CXX_LINK_EXECUTABLE
 )
 
-project(BitcoinCore
+project(RTNCCore
   VERSION ${CLIENT_VERSION_MAJOR}.${CLIENT_VERSION_MINOR}.${CLIENT_VERSION_BUILD}
-  DESCRIPTION "Bitcoin client software"
+  DESCRIPTION "RTNC client software"
   HOMEPAGE_URL "https://bitcoincore.org/"
   LANGUAGES NONE
 )
