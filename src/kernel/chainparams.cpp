@@ -153,12 +153,6 @@ public:
         assert(genesis.hashMerkleRoot ==
                uint256{"05cf663b0c1acdb4635c1ef1f19c8ed63624d4c927101e7f597f34e2ee7e80f7"});
 
-
-
-
-
-
-
         // Note that of those which support the service bits prefix, most only support a subset of
         // possible options.
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
